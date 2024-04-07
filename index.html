@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web </title>
+    <link rel="stylesheet" href="./css/Style.css">
+    <script src="./script/script.js"></script>
+</head>
+
+<body>
+
+    <nav class="all-item" id="navbar">
+        <ul id="min-screen" class="short-screen">
+            <img onclick="blockItem()" src="./icon/cros-bar.png">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="">Blog</a></li>
+
+        </ul>
+        <ul class="long-screen">
+            <li><a href="">Brand Logo</a></li>
+            <li class="item-li"><a href="">Home</a></li>
+            <li class="item-li about"><a href="">About</a>
+            </li>
+            <li class="item-li"><a href="">Contact</a></li>
+            <li class="item-li"><a href="">Help</a></li>
+            <li class="item-li"><a href="">Blog</a></li>
+            <img id="bar" onclick="showItem()" src="./icon/bar.png" alt="">
+        </ul>
+    </nav>
+
+    <div class="all-item" id="chat-btn">
+        <p onclick="contactItem()">Chat</p>
+
+    </div>
+    <div id="container" class="all-item chat-area">
+        <h2 id="user">User Name</h2>
+        <div id="masege" class="sms-fild">
+            <!-- <p class="count-text" id="coun-text"></p> -->
+        </div>
+        <div id="input-fild">
+            <input id="input-sms" type="name">
+            <button onclick=" pushData()">
+                Send
+            </button>
+        </div>
+    </div>
+
+    <div id="form-area" class="item-section">
+
+
+
+
+        <!-- other item -->
+        <div id="form" action="">
+            <span id="border-top"></span>
+            <span id="border-right"></span>
+            <span id="border-bottom"></span>
+            <span id="border-left"></span>
+            <div id="main-section">
+                <h2>Sign-in</h2>
+                
+                <div>
+                    <input type="gmail" placeholder="Enter Email">
+                    <br>
+                    <br>
+                    <input type="password" placeholder="Enter Passwprd">
+                </div>
+
+                <div id="botton">
+                    <button onclick="signIn()">
+                        Sign-in
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <input type="range"> -->
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
